@@ -1,0 +1,24 @@
+body{
+	background: #f3f7f7;
+}
+
+div.login-card{
+	margin-top: 15%;
+	background: #f3f7f7;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	color:#39424e;
+	padding: 10px;
+}
+div.login-card h3{
+	text-align: center;
+}
+div.customer-details-card{
+	margin-top: 2%;
+	color:#39424e;
+}
+div.customer-details-card h4,h6{
+	text-align: center;
+}
+span.seperator{
+	border-bottom: 1px solid #000;
+}
