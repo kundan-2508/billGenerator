@@ -1,10 +1,4 @@
 
-<?php
-
-include_once "captions/captions.php";
-
-?>
-
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	

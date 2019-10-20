@@ -22,5 +22,6 @@ define("shopAddressLineOne","NATIONAL COMPUTERIZED WEIGH BRIDGE");
 define("shopAddressLineTwo","GT ROAD KANDRA GOVINDPUR DHANBAD(J.K)");
 define("shopAddressAdditionalTitle","APPROVED BY GOVT. JHARKHAND(INDIA)");
 define("save","Save");
+define("saveAndPrint","Save and print");
 
 ?>

@@ -9,6 +9,7 @@ $query = "CREATE TABLE customerRecordTable(
 	charges INT NOT NULL,
 	material VARCHAR(30),
 	partyRef VARCHAR(30),
+	payment VARCHAR(30),
 	driver VARCHAR(30),
 	grossWeight INT,
 	grossWeightTime VARCHAR(30),

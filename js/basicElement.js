@@ -35,24 +35,29 @@ $(document).ready(function(){
 		var grossWeight = $("#grossWeight").val();
 		var tareWeight = $("#tareWeight").val();
 		var netWeight = $("#netWeight").val();
-		
+		//alert(netWeight);
         $.ajax({
 				url:'auth/validateCustomerDetails.php',
-				data:{vechNo:vechNo,vechType:vechType,
-					charges:charges,material:material,
-					partyRef:partyRef,payment:payment,
-					driver:driver,grossWeight:grossWeight,
-					tareWeight:tareWeight,netWeight:netWeight},
+				data:{serialNo:serialNo,
+					vechNo:vechNo,
+					vechType:vechType,
+					charges:charges,
+					material:material,
+					partyRef:partyRef,
+					payment:payment,
+					driver:driver,
+					grossWeight:grossWeight,
+					tareWeight:tareWeight,
+					netWeight:netWeight},
 				type:'POST',
 				success:function(data){
 					if(data)
 					{
-						
-						$("#error-text").innerHTML = data;
 						alert(data);
-						location.reload();
+						//location.reload();
 						//window.print();
 						//printReciept();
+						$("#printMe").click();
 					}
 				}
 			});
